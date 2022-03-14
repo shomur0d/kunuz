@@ -74,4 +74,16 @@ public class ArticleController {
         return ResponseEntity.ok(response);
     }*/
 
+
+    /*@GetMapping("/{id}")
+    public ResponseEntity<?> getById(@PathVariable("id") Integer id){
+        ArticleDTO response = articleService.getById(id);
+        return ResponseEntity.ok(response);
+    }*/
+    /*@GetMapping("/{id}")
+    public ResponseEntity<?> getById(@PathVariable("id") Integer id){
+        ArticleDTO response = articleService.getById(id);
+        return ResponseEntity.ok(response);
+    }*/
+
 }
